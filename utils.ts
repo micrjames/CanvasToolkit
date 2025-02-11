@@ -17,3 +17,8 @@ export interface Animatable {
    get ctx(): CanvasRenderingContext2D | null | undefined;
 }
 export type AnimationFunction = (timestamp: number) => void;
+/*
+ * interface Animatable {
+ * 	 animate(timestamp: number): void;
+ * }
+ */
